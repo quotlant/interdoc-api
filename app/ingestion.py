@@ -17,4 +17,4 @@ def chunk_text(text: str, chunk_size: int = 300, overlap: int = 50) -> list[str]
         if chunk.strip(): #this line checks if the chunk is not empty after stripping whitespace
             chunks.append(chunk) #this line adds the non-empty chunk to the list of chunks
         start += chunk_size - overlap #this line updates the starting index for the next chunk by moving it forward by the chunk size minus the overlap, allowing for overlapping chunks
-    return chunks #this line returns the list of chunks created from the original text
+    return chunks #this line returns the list of chunks created from the original textgit ß
